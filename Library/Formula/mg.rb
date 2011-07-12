@@ -1,9 +1,9 @@
 require 'formula'
 
 class Mg < Formula
-  url 'http://pintday.org/hack/mg/mg-p-080818.tgz'
-  homepage 'http://pintday.org/hack/mg/'
-  md5 '5cdd46b226586306bde2dd5d47920d66'
+  url 'http://homepage.boetes.org/software/mg/mg-20110120.tar.gz'
+  homepage 'http://homepage.boetes.org/software/mg'
+  md5 'f2fa8016a491aa2a9d4c5698c593f31b'
 
   def install
     system "make PREFIX=#{prefix}"
